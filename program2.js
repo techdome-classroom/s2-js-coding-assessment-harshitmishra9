@@ -25,3 +25,6 @@ def isValid(s: str) -> bool:
 
     # If the stack is empty, all brackets were matched
     return len(stack) == 0
+    print(isValid("()"))      # Output: True
+print(isValid("()[]{}"))  # Output: True
+print(isValid("(]"))      # Output: False
