@@ -1,13 +1,3 @@
-/**
- * @param {string} s
- * @return {number}
- */
-var romanToInt = function(s) {
-    
-};
-
-
-module.exports={romanToInt}
 
 function isValid(s) {
     // Map to hold matching pairs
